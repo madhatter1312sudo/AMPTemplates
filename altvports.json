@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "ApplicationPort1",
+    "Protocol": "UDP",
+    "Default": 7788,
+    "Required": true,
+    "Description": "Alt:V Server Port"
+  }
+]
+
