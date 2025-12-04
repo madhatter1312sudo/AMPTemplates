@@ -25,6 +25,7 @@ UserChatRegex=^\[CHAT\] (?<username>.+?): (?<message>.+)$
 
 [Meta]
 DisplayName=Alt:V Server
+Description=Alt:V Multiplayer Server - A modern multiplayer framework for GTA V
 OS=3
 AppConfigId=altv-server-001
 Author=Community
