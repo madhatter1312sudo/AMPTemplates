@@ -1,0 +1,10 @@
+[
+  {
+    "PreStartStageName": "Create server.cfg with httpPort",
+    "PreStartSourcePlatform": "Linux",
+    "PreStartSource": "RunScript",
+    "PreStartSourceData": "cat > server.cfg << 'CFGEOF'\nname: Regenesis\nhost: 0.0.0.0\nport: 7788\nhttpPort: 7780\nplayers: 128\npassword: \ntoken: \nannounce: false\ngamemode: Freeroam\nwebsite: \nlanguage: en\ndescription: Alt:V Multiplayer Server\nmodules: [ ]\nresources: [ ]\nCFGEOF\n",
+    "RunInShell": true
+  }
+]
+
