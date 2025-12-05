@@ -1,5 +1,5 @@
-Meta.DisplayName=Alt:V Server
-Meta.Description=Alt:V Multiplayer Server - A modern multiplayer framework for GTA V
+Meta.DisplayName=Regenesis
+Meta.Description=Alt:Regenesis PvP server
 Meta.OS=Linux
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
@@ -16,7 +16,7 @@ Meta.ContainerPolicy=SupportedOnWindows, RecommendedOnLinux
 Meta.ContainerPolicyReason=Alt:V server can run in containers with proper network access
 Meta.SpecificDockerImage=cubecoders/ampbase:debian
 Meta.AppConfigId=0879f45b-5969-4d9c-bd12-827f066a823d
-App.DisplayName=Alt:V Server
+App.DisplayName=Regenesis
 App.RootDir={{$RootDir}}
 App.WorkingDir={{$RootDir}}
 App.ExecutableLinux=altv-server
