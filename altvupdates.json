@@ -1,0 +1,111 @@
+[
+  {
+    "UpdateStageName": "Download Alt:V Server",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_linux/altv-server",
+    "UpdateSourceTarget": "altv-server",
+    "SetExecutableFlag": true,
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Data Files",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_linux/data/vehmodels.bin",
+    "UpdateSourceTarget": "data/vehmodels.bin",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Data Files 2",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_linux/data/vehmods.bin",
+    "UpdateSourceTarget": "data/vehmods.bin",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Data Files 3",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_linux/data/pedmodels.bin",
+    "UpdateSourceTarget": "data/pedmodels.bin",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Data Files 4",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_linux/data/weaponmodels.bin",
+    "UpdateSourceTarget": "data/weaponmodels.bin",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download JavaScript Module",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/js-module/release/x64_linux/libjs-module.so",
+    "UpdateSourceTarget": "modules/js-module/libjs-module.so",
+    "SetExecutableFlag": true,
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Node.js Library",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/js-module/release/x64_linux/libnode.so.108",
+    "UpdateSourceTarget": "modules/js-module/libnode.so.108",
+    "SetExecutableFlag": true,
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download C# Module",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/coreclr-module/release/x64_linux/libcsharp-module.so",
+    "UpdateSourceTarget": "modules/libcsharp-module.so",
+    "SetExecutableFlag": true,
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download AltV.Net.Host.dll",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/coreclr-module/release/x64_linux/AltV.Net.Host.dll",
+    "UpdateSourceTarget": "AltV.Net.Host.dll",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download AltV.Net.Host.runtimeconfig.json",
+    "UpdateSourcePlatform": "Linux",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/coreclr-module/release/x64_linux/AltV.Net.Host.runtimeconfig.json",
+    "UpdateSourceTarget": "AltV.Net.Host.runtimeconfig.json",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Server (Windows)",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_win32/altv-server.exe",
+    "UpdateSourceTarget": "altv-server.exe",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Data Files (Windows)",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_win32/data/vehmodels.bin",
+    "UpdateSourceTarget": "data/vehmodels.bin",
+    "OverwriteExistingFiles": true
+  },
+  {
+    "UpdateStageName": "Download Alt:V Data Files 2 (Windows)",
+    "UpdateSourcePlatform": "Windows",
+    "UpdateSource": "FetchURL",
+    "UpdateSourceData": "https://cdn.alt-mp.com/server/release/x64_win32/data/vehmods.bin",
+    "UpdateSourceTarget": "data/vehmods.bin",
+    "OverwriteExistingFiles": true
+  }
+]
+
