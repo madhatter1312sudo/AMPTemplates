@@ -1,0 +1,23 @@
+[
+  {
+    "PreStartStageName": "Download altv-server",
+    "PreStartSourcePlatform": "Linux",
+    "PreStartSource": "RunScript",
+    "PreStartSourceData": "mkdir -p GenericApplication && cd GenericApplication && if [ ! -f altv-server ]; then if command -v wget >/dev/null 2>&1; then wget -O altv-server https://cdn.alt-mp.com/server/release/x64_linux/altv-server && chmod +x altv-server; elif command -v curl >/dev/null 2>&1; then curl -L -o altv-server https://cdn.alt-mp.com/server/release/x64_linux/altv-server && chmod +x altv-server; fi; fi && ls -lh altv-server",
+    "RunInShell": true
+  },
+  {
+    "PreStartStageName": "Download data files",
+    "PreStartSourcePlatform": "Linux",
+    "PreStartSource": "RunScript",
+    "PreStartSourceData": "mkdir -p GenericApplication/data && cd GenericApplication/data && for f in vehmodels.bin vehmods.bin pedmodels.bin weaponmodels.bin; do if [ ! -f \"$f\" ]; then if command -v wget >/dev/null 2>&1; then wget -O \"$f\" \"https://cdn.alt-mp.com/server/release/x64_linux/data/$f\"; elif command -v curl >/dev/null 2>&1; then curl -L -o \"$f\" \"https://cdn.alt-mp.com/server/release/x64_linux/data/$f\"; fi; fi; done",
+    "RunInShell": true
+  },
+  {
+    "PreStartStageName": "Create server.cfg",
+    "PreStartSourcePlatform": "Linux",
+    "PreStartSource": "RunScript",
+    "PreStartSourceData": "cat > GenericApplication/server.cfg << 'EOF'\nname: Regenesis\nhost: 0.0.0.0\nport: 7788\nhttpPort: 7780\nplayers: 128\npassword: \ntoken: \nannounce: false\ngamemode: Freeroam\nwebsite: \nlanguage: en\ndescription: Alt:V Multiplayer Server\nmodules: [ ]\nresources: [ ]\nEOF\n",
+    "RunInShell": true
+  }
+]
